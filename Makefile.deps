@@ -1,0 +1,67 @@
+AIDJCUBITO.o: AIDJCUBITO.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOfarmers.o: AIDJCUBITOfarmers.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv10.o: AIDJCUBITOv10.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv11.o: AIDJCUBITOv11.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv12.o: AIDJCUBITOv12.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv13.o: AIDJCUBITOv13.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv14.o: AIDJCUBITOv14.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv15.o: AIDJCUBITOv15.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv16.o: AIDJCUBITOv16.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv17.o: AIDJCUBITOv17.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv18.o: AIDJCUBITOv18.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv19.o: AIDJCUBITOv19.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv2.o: AIDJCUBITOv2.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv20.o: AIDJCUBITOv20.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv3.o: AIDJCUBITOv3.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv4.o: AIDJCUBITOv4.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv5.o: AIDJCUBITOv5.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv6.o: AIDJCUBITOv6.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv7.o: AIDJCUBITOv7.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv8.o: AIDJCUBITOv8.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDJCUBITOv9.o: AIDJCUBITOv9.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIDemo.o: AIDemo.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ State.hh Action.hh Random.hh Registry.hh
+AIGFuentes.o: AIGFuentes.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh State.hh Action.hh Random.hh Registry.hh
+AINull.o: AINull.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ State.hh Action.hh Random.hh Registry.hh
+AIru_6.o: AIru_6.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ State.hh Action.hh Random.hh Registry.hh
+Action.o: Action.cc Action.hh Structs.hh Utils.hh
+Board.o: Board.cc Board.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ State.hh Action.hh Random.hh
+Game.o: Game.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ State.hh Action.hh Random.hh Registry.hh Board.hh
+Info.o: Info.cc Info.hh Settings.hh Structs.hh Utils.hh State.hh
+Main.o: Main.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ State.hh Action.hh Random.hh Registry.hh Board.hh
+Player.o: Player.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ State.hh Action.hh Random.hh Registry.hh
+Random.o: Random.cc Random.hh Utils.hh
+Registry.o: Registry.cc Registry.hh Utils.hh
+Settings.o: Settings.cc Settings.hh Structs.hh Utils.hh
+State.o: State.cc State.hh Structs.hh Utils.hh
+Structs.o: Structs.cc Structs.hh Utils.hh
+Utils.o: Utils.cc Utils.hh
+funciones_random.o: funciones_random.cc
